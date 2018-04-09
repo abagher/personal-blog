@@ -101,7 +101,6 @@ export const pageQuery = graphql`
 				title
 				date
 				client
-				service
 				cover {
 					childImageSharp {
 						resize(width: 800) {
